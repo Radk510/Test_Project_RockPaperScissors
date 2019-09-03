@@ -12,6 +12,8 @@ namespace Test_Project_RockPaperScissors
         {
             UserStuff user = new UserStuff();
             Console.WriteLine(user.GetUserChoice());
+            ComputerStuff computer = new ComputerStuff();
+            Console.WriteLine(computer.ComputerChoice());
 
 
             Console.ReadLine();

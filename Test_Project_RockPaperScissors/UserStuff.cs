@@ -25,7 +25,7 @@ namespace Test_Project_RockPaperScissors
                     check = false;
                 } 
             }
-            return "User choise is: " + userChoice;
+            return userChoice;
         }
     }
 }
