@@ -10,10 +10,18 @@ namespace Test_Project_RockPaperScissors
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("This is a popular game in console view called \"Rock, Paper & Scissors\". " +
+                "Created by Rodion Kl");
             UserStuff user = new UserStuff();
-            Console.WriteLine(user.GetUserChoice());
+            //Console.WriteLine(user.GetUserChoice());
             ComputerStuff computer = new ComputerStuff();
-            Console.WriteLine(computer.ComputerChoice());
+            //Console.WriteLine(computer.ComputerChoice());
+            //Console.WriteLine(computer.ComputerChoice());
+
+            GameProcess game = new GameProcess(computer, user);
+
+            
+            game.LetsPlayGame();
 
 
 

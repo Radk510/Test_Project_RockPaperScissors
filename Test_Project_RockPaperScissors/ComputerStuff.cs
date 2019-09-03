@@ -8,12 +8,12 @@ namespace Test_Project_RockPaperScissors
 {
     class ComputerStuff
     {
-        string[] toolToCompUse = { "Rock", "Paper", "Scissors" };
 
-        Random rd = new Random();
 
         public string ComputerChoice()
         {
+            string[] toolToCompUse = { "Rock", "Paper", "Scissors" };
+            Random rd = new Random();
             return toolToCompUse[rd.Next(3)];
         }
     }

@@ -24,7 +24,7 @@ namespace Test_Project_RockPaperScissors
                 {
                     if (userChoice == "q")
                     {
-                        return "End of the game, see you later.";
+                        return userChoice;
                     }
                     else
                     {
