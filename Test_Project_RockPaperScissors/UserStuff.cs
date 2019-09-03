@@ -12,7 +12,8 @@ namespace Test_Project_RockPaperScissors
 
         public string GetUserChoice()
         {
-            Console.WriteLine("Enter 'r' to use 'Rock', enter 'p' to use 'Paper', enter 's' to use 'Scissors");
+            Console.WriteLine("Enter 'r' to use 'Rock', enter 'p' to use 'Paper', enter 's' to use 'Scissors." +
+                "To leave the game press 'q'");
             string userChoice = "";
             bool check = false;
             while (!check)
@@ -21,8 +22,15 @@ namespace Test_Project_RockPaperScissors
                 if (userChoice == "r" || userChoice == "p" || userChoice == "s") check = true;
                 else
                 {
-                    Console.WriteLine("Try again, you should type 'r', 'p' or 's'");
-                    check = false;
+                    if (userChoice == "q")
+                    {
+                        return "End of the game, see you later.";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Try again, you should type 'r', 'p' or 's'");
+                        check = false;
+                    }
                 } 
             }
             return userChoice;

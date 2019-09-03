@@ -16,6 +16,11 @@ namespace Test_Project_RockPaperScissors
             Console.WriteLine(computer.ComputerChoice());
 
 
+
+
+
+
+            Console.WriteLine("\n\n\nPress any key to leave the console window...");
             Console.ReadLine();
         }
     }
