@@ -10,6 +10,11 @@ namespace Test_Project_RockPaperScissors
     {
         static void Main(string[] args)
         {
+            UserStuff user = new UserStuff();
+            Console.WriteLine(user.GetUserChoice());
+
+
+            Console.ReadLine();
         }
     }
 }

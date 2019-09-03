@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\Test_Project_RockPaperScissors\Test_Project_RockPaperScissors\bin\Debug\Test_Project_RockPaperScissors.exe.config
+C:\Users\Admin\source\repos\Test_Project_RockPaperScissors\Test_Project_RockPaperScissors\bin\Debug\Test_Project_RockPaperScissors.exe
+C:\Users\Admin\source\repos\Test_Project_RockPaperScissors\Test_Project_RockPaperScissors\bin\Debug\Test_Project_RockPaperScissors.pdb
+C:\Users\Admin\source\repos\Test_Project_RockPaperScissors\Test_Project_RockPaperScissors\obj\Debug\Test_Project_RockPaperScissors.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Test_Project_RockPaperScissors\Test_Project_RockPaperScissors\obj\Debug\Test_Project_RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Test_Project_RockPaperScissors\Test_Project_RockPaperScissors\obj\Debug\Test_Project_RockPaperScissors.exe
+C:\Users\Admin\source\repos\Test_Project_RockPaperScissors\Test_Project_RockPaperScissors\obj\Debug\Test_Project_RockPaperScissors.pdb
