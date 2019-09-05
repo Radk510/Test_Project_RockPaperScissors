@@ -89,7 +89,9 @@ namespace Test_Project_RockPaperScissors
                         break;
                     case "q":
                         playOrQuit = true;
+                        Console.BackgroundColor = ConsoleColor.DarkBlue;
                         Console.WriteLine("\nEnd of the game");
+                        Console.BackgroundColor = ConsoleColor.Black;
                         break;
                     default:
                         break;
@@ -103,7 +105,13 @@ namespace Test_Project_RockPaperScissors
                     Console.WriteLine("User points: " + UserPoints + ". Computer points: " + ComputerPoints);
                     if (UserPoints > ComputerPoints)
                     {
+                        Console.BackgroundColor = ConsoleColor.DarkGreen;
+                        Console.ForegroundColor = ConsoleColor.Black;
                         Console.WriteLine("User win");
+                        Console.BackgroundColor = ConsoleColor.Black;
+                        Console.ForegroundColor = ConsoleColor.White;
+
+
                     }
                     else if (UserPoints == ComputerPoints)
                     {
@@ -111,7 +119,12 @@ namespace Test_Project_RockPaperScissors
                     }
                     else
                     {
+                        Console.BackgroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.Black;
                         Console.WriteLine("Computer win");
+                        Console.BackgroundColor = ConsoleColor.Black;
+                        Console.ForegroundColor = ConsoleColor.White;
+
                     }
                 }
                 roundNum++;
