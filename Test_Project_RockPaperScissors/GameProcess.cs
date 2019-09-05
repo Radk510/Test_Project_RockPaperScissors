@@ -37,7 +37,10 @@ namespace Test_Project_RockPaperScissors
             }
             else if (userChoice == "Paper" && computerChoice == "Rock")
             {
+               
                 Console.WriteLine("User win");
+               
+
                 UserPoints++;
             }
             else if (userChoice == "Paper" && computerChoice == "Scissors")
@@ -71,7 +74,7 @@ namespace Test_Project_RockPaperScissors
             while (!playOrQuit)
             {
                 string UserTool = "";
-                Console.WriteLine("Round № " + roundNum);
+                Console.WriteLine("\nRound № " + roundNum);
                 string ComputerTool = Computer.ComputerChoice();
                 switch (User.GetUserChoice())
                 {
@@ -86,7 +89,7 @@ namespace Test_Project_RockPaperScissors
                         break;
                     case "q":
                         playOrQuit = true;
-                        Console.WriteLine("End of the game");
+                        Console.WriteLine("\nEnd of the game");
                         break;
                     default:
                         break;
